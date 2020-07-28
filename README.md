@@ -15,6 +15,8 @@
 * systemctl status docker
 
 # Run app
+* yum update
+* yum install git
 * mkdir -p /opt/docker_tutorial && cd /opt/docker_tutorial
 * git clone https://github.com/xuantu55/python.git 
 * docker-compose up -d
