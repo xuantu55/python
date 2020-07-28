@@ -15,8 +15,13 @@
 * systemctl status docker
 
 # Run app
+* setenforce 0
+* systemctl stop firewalld
+* systemctl disable firewalld
+* systemctl mask --now firewalld
 * yum update
 * yum install git
+
 * mkdir -p /opt/docker_tutorial && cd /opt/docker_tutorial
 * git clone https://github.com/xuantu55/python.git 
 * docker-compose up -d
