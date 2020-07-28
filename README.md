@@ -2,7 +2,7 @@
 # Tutorial docker FPT - App test python
 
 # install docker
-*mkdir -p /opt/script && cd /opt/script
+* mkdir -p /opt/script && cd /opt/script
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 
