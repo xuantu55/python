@@ -29,3 +29,4 @@
 # Check app
 * docker-compose ps
 * curl localhost:5000
+* docker-compose logs -f
